@@ -1,16 +1,42 @@
-# React + Vite
+# Tic-Toc-Toe-Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple Tic Tac Toe game built with **React and Vite**.  
+This is the start of my React journey, and this app shows a basic interactive game where two players can play Tic Tac Toe in the browser.
 
-Currently, two official plugins are available:
+## Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+You can play the game locally by running it on your computer (instructions below).
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Two-player Tic Tac Toe game
+- Interactive board and turn logic
+- Shows winner or draw
+- Built with React (Vite)
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React  
+- Vite  
+- JavaScript  
+- HTML / CSS
+
+
+
+## How to Play
+
+* Two players take turns.
+* Player X goes first.
+* Click a square to place a mark.
+* First to get three in a row (horizontal, vertical, diagonal) wins.
+* If all cells fill with no winner, it’s a draw.
+
+## Contributing
+
+Contributions are welcome. If you find bugs or have ideas for improvement, open an issue or submit a pull request.
+
+## License
+
+This project is open-source and free to use.
+
+---
